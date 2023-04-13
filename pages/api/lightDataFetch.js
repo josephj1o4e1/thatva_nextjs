@@ -1,5 +1,5 @@
 export const config = {
-    // runtime: 'edge',
+    runtime: 'edge',
     // regions: 'cle1', // only execute this function on sfo1
 }
 
