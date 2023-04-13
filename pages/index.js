@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import ApiCall from "./apicall";
 import Loading from "./loading";
-import { useState, useEffect } from "react";
 
 const Home = () => {
   // const [customers, setCustomers] = useState([]);
