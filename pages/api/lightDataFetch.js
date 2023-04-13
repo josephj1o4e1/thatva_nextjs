@@ -1,6 +1,6 @@
 export const config = {
     runtime: 'edge',
-    // regions: 'cle1', // only execute this function on sfo1
+    regions: 'cle1', // only execute this function on sfo1
 }
 
 const {Pool} = require('pg') // or const Pool = require('pg').Pool
