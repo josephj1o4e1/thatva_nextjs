@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import ApiCall from "./apicall";
+import ApiCallRicknMorty from "./apicall2";
 import Loading from "./loading";
 import { useState, useEffect } from "react";
 
