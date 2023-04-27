@@ -6,7 +6,7 @@ const ApiCallRicknMorty4 = () => {
     const [characters, setCharacters] = useState([]);
 
     useEffect(() => {
-        fetch("api/hello")
+        fetch("api/hello4")
         .then((response) => response.json())
         .then((data) => setCharacters(data.characters)) // update this line
         .catch((error) => console.log(error));
