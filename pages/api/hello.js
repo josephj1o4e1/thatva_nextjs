@@ -2,7 +2,7 @@
 export const config = {
   runtime: 'edge',
   // regions: 'sfo1', // san francisco
-  regions: 'cpt1', //capetown, south africa
+  regions: 'fra1', //frankfurt, germany
 }
 
 export default async function handler(req, res) {
