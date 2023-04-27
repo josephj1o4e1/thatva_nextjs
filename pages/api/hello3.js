@@ -18,7 +18,7 @@ export const config = {
       //   console.log("hey")
       // } while (url && data.pages<10);
   
-      const response = await fetch("https://rickandmortyapi.com/api/character/?page=4");
+      const response = await fetch("https://rickandmortyapi.com/api/character/?page=5");
       const data = await response.json();
       const characters = data.results;
   
