@@ -1,7 +1,7 @@
 // pages/api/hello.js
 export const config = {
   runtime: 'edge',
-  regions: 'sfo1', // only execute this function on sfo1
+  // regions: 'sfo1', // only execute this function on sfo1
 }
 
 export default async function handler(req, res) {
@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     //   console.log("hey")
     // } while (url && data.pages<10);
 
-    const response = await fetch("https://rickandmortyapi.com/api/character/?page=20"); // /?page=20
+    const response = await fetch("https://rickandmortyapi.com/api/character"); // /?page=20
     const data = await response.json();
     const characters = data.results;
 
