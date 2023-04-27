@@ -1,6 +1,9 @@
 import { Suspense } from "react";
 import ApiCall from "./apicall";
-import ApiCallRicknMorty from "./apicall2";
+import ApiCallRicknMorty1 from "./apicall1";
+import ApiCallRicknMorty2 from "./apicall2";
+import ApiCallRicknMorty3 from "./apicall3";
+import ApiCallRicknMorty4 from "./apicall4";
 import Loading from "./loading";
 import { useState, useEffect } from "react";
 
@@ -13,7 +16,10 @@ const Home = () => {
 
   return (
     <Suspense fallback={<Loading />}>
-      <ApiCallRicknMorty />
+      <ApiCallRicknMorty1 />
+      <ApiCallRicknMorty2 />
+      <ApiCallRicknMorty3 />
+      <ApiCallRicknMorty4 />
     </Suspense>
   )
 

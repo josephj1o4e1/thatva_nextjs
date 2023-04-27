@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const ApiCallRicknMorty2 = () => {
+const ApiCallRicknMorty3 = () => {
     // const [customers, setCustomers] = useState([]);
     // const [isLoading, setLoading] = useState(false)
     const [characters, setCharacters] = useState([]);
@@ -44,4 +44,4 @@ const ApiCallRicknMorty2 = () => {
       );
 };
 
-export default ApiCallRicknMorty2;
+export default ApiCallRicknMorty3;
