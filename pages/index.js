@@ -16,6 +16,7 @@ const Home = () => {
 
   return (
     <Suspense fallback={<Loading />}>
+      <ApiCall />
       <ApiCallRicknMorty1 />
       <ApiCallRicknMorty2 />
       <ApiCallRicknMorty3 />
