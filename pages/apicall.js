@@ -7,7 +7,8 @@ const ApiCall = () => {
 
     useEffect(() => {
     // setLoading(true)
-    fetch("api/lightDataFetch") //, { cache: 'no-store' }
+    // fetch("api/lightDataFetch") //, { cache: 'no-store' }
+    fetch("api/prismaDataFetch") //, { cache: 'no-store' }
         .then((response) => response.json())
         .then((data) => {
         setCustomers(data.rows);
