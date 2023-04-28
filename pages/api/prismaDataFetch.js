@@ -1,9 +1,9 @@
 import prisma from "../../lib/prisma";
 
-export const config = {
-    runtime: 'experimental-edge',
-    // regions: 'cle1',
-};
+// export const config = {
+//     runtime: 'experimental-edge',
+//     // regions: 'cle1',
+// };
 
 // export default async function handler(req, res) {
 //     const { name, email } = req.query;
