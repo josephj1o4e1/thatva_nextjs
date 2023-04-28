@@ -5,7 +5,7 @@ import ApiCallRicknMorty2 from "./apicall2";
 import ApiCallRicknMorty3 from "./apicall3";
 import ApiCallRicknMorty4 from "./apicall4";
 import Loading from "./loading";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 const Home = () => {
   // return (
