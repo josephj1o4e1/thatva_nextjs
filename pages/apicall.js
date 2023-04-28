@@ -24,7 +24,7 @@ const ApiCall = () => {
         <h1>LightDataFetch</h1>
         <h2>Customer Data From AWS RDS Postgresql</h2>
         <div>
-        {customers.map((customer) => (
+        {customers?.map((customer) => (
             <div key={customer.customer_id}>
             <h1>Customer ID: {customer.customer_id}</h1>
             <h2>Customer Member Status: {customer.club_member_status}</h2>
